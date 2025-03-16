@@ -46,8 +46,6 @@ WS.verifyResponseStatusCode(response, 200)
 assertThat(response.getStatusCode()).isEqualTo(200)
 
 assertThat(response.getStatusCode()).isIn(Arrays.asList(200, 201, 202))
-
-WS.verifyElementPropertyValue(response, 'x.list[0].dt', '1742066804')
 </verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

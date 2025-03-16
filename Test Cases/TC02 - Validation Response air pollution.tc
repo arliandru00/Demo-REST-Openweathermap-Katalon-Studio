@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02 - Validation Response air pollution</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>660f75e5-5c7a-4fca-976e-791d1bf3342e</testCaseGuid>
+</TestCaseEntity>
