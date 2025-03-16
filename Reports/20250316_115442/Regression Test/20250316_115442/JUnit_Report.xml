@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Test" time="10.259" tests="2" failures="0" errors="0">
+   <testsuite name="Regression Test" tests="2" failures="0" errors="0" time="10.259" skipped="0" timestamp="16-03-2025T11:54:52" hostname="Cadangan 2 - DESKTOP-8FOE31T" id="Test Suites/Regression Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Cadangan 2\\git\\Demo-REST-Openweathermap-Katalon-Studio\\Reports\\20250316_115442\\Regression Test\\20250316_115442"/>
+         <property name="logFiles" value="C:\\Users\\Cadangan 2\\git\\Demo-REST-Openweathermap-Katalon-Studio\\Reports\\20250316_115442\\Regression Test\\20250316_115442\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Cadangan 2 - DESKTOP-8FOE31T"/>
+         <property name="hostAddress" value="172.20.10.7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+      </properties>
+      <testcase name="Test Cases/TC01 - Validation Response weather forecast" time="8.134" classname="Test Cases/TC01 - Validation Response weather forecast" status="PASSED">
+         <system-out><![CDATA[16-03-2025T11:54:52 - [TEST_CASE][PASSED] - Test Cases/TC01 - Validation Response weather forecast: Test Cases/TC01 - Validation Response weather forecast
+
+16-03-2025T11:54:53 - [TEST_STEP][PASSED] - sendRequest(findTestObject("GET/Get 5 day weather forecast of Jakarta Selatan")): Send request successfully
+
+16-03-2025T11:54:57 - [MESSAGE][INFO] - HAR: C:\Users\Cadangan 2\git\Demo-REST-Openweathermap-Katalon-Studio\Reports\20250316_115442\Regression Test\20250316_115442\requests\main\Get-5-day...Selatan_0.har
+
+16-03-2025T11:54:58 - [MESSAGE][PASSED] - Send request successfully
+
+16-03-2025T11:54:58 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("GET/Get 5 day weather forecast of Jakarta Selatan")): Send request and verify the response successfully
+
+16-03-2025T11:54:58 - [MESSAGE][INFO] - HAR: C:\Users\Cadangan 2\git\Demo-REST-Openweathermap-Katalon-Studio\Reports\20250316_115442\Regression Test\20250316_115442\requests\main\Get-5-day...Selatan_1.har
+
+16-03-2025T11:54:58 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+16-03-2025T11:54:59 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+16-03-2025T11:54:59 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+16-03-2025T11:54:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+16-03-2025T11:54:59 - [MESSAGE][PASSED] - Verify response status code successfully
+
+16-03-2025T11:54:59 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+16-03-2025T11:55:00 - [MESSAGE][PASSED] - Verify response successfully
+
+16-03-2025T11:55:00 - [MESSAGE][PASSED] - All validation steps have been passed
+
+16-03-2025T11:55:00 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02 - Validation Response air pollution" time="1.553" classname="Test Cases/TC02 - Validation Response air pollution" status="PASSED">
+         <system-out><![CDATA[16-03-2025T11:55:00 - [TEST_CASE][PASSED] - Test Cases/TC02 - Validation Response air pollution: Test Cases/TC02 - Validation Response air pollution
+
+16-03-2025T11:55:01 - [TEST_STEP][PASSED] - sendRequest(findTestObject("GET/Get current air pollution of Jakarta Selatan")): Send request successfully
+
+16-03-2025T11:55:01 - [MESSAGE][INFO] - HAR: C:\Users\Cadangan 2\git\Demo-REST-Openweathermap-Katalon-Studio\Reports\20250316_115442\Regression Test\20250316_115442\requests\main\Get-curre...Selatan_2.har
+
+16-03-2025T11:55:01 - [MESSAGE][PASSED] - Send request successfully
+
+16-03-2025T11:55:01 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("GET/Get current air pollution of Jakarta Selatan")): Send request and verify the response successfully
+
+16-03-2025T11:55:01 - [MESSAGE][INFO] - HAR: C:\Users\Cadangan 2\git\Demo-REST-Openweathermap-Katalon-Studio\Reports\20250316_115442\Regression Test\20250316_115442\requests\main\Get-curre...Selatan_3.har
+
+16-03-2025T11:55:01 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+16-03-2025T11:55:02 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+16-03-2025T11:55:02 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+16-03-2025T11:55:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+16-03-2025T11:55:02 - [MESSAGE][PASSED] - Verify response status code successfully
+
+16-03-2025T11:55:02 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+16-03-2025T11:55:02 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+16-03-2025T11:55:02 - [MESSAGE][PASSED] - Verify response successfully
+
+16-03-2025T11:55:02 - [MESSAGE][PASSED] - All validation steps have been passed
+
+16-03-2025T11:55:02 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+16-03-2025T11:55:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+16-03-2025T11:55:02 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-03-2025T11:54:52 - [TEST_SUITE][PASSED] - Regression Test: Test Cases/TC02 - Validation Response air pollution]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

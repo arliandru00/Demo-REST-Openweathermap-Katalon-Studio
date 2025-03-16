@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test,,,,16-03-2025 11:52:30,16-03-2025 11:52:36,5.477s,FAILED
+,,,,,,,
+Test Cases/TC01 - Validation Response weather forecast,,,,16-03-2025 11:52:31,16-03-2025 11:52:35,4.236s,FAILED
+"sendRequest(findTestObject(""GET/Get 5 day weather forecast of Jakarta Selatan""))",,Send Request,,16-03-2025 11:52:31,16-03-2025 11:52:35,3.547s,FAILED
+,,,,,,,
+Test Cases/TC02 - Validation Response air pollution,,,,16-03-2025 11:52:35,16-03-2025 11:52:36,0.710s,FAILED
+"sendRequest(findTestObject(""GET/Get current air pollution of Jakarta Selatan""))",,,,16-03-2025 11:52:36,16-03-2025 11:52:36,0.131s,FAILED
